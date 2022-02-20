@@ -9,6 +9,10 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+   
+    {{--Font Awesome CSS--}}
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/637be06f27.js" crossorigin="anonymous"></script>
 
   <!-- My Css -->
   <link rel="stylesheet" href="style.css" />
@@ -55,7 +59,6 @@
       <path fill="#ffffff" fill-opacity="1"
         d="M0,0L48,16C96,32,192,64,288,90.7C384,117,480,139,576,133.3C672,128,768,96,864,122.7C960,149,1056,235,1152,234.7C1248,235,1344,149,1392,106.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
-    </svg>
     </svg>
   </section>
   <!-- End Hero -->
@@ -159,77 +162,34 @@
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,160C384,149,480,139,576,144C672,149,768,171,864,170.7C960,171,1056,149,1152,160C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>  </section>
-  <!-- End PRT -->
+  <!-- End Portofolio -->
 
-  <!-- Contact -->
-  {{-- <section id="contact">
-    <div class="container">
-      <div class="row text-center mt-3">
-        <div class="col">
-          <h2>Contact Me</h2>
-        </div>
-      </div>
-    </div>
-  </section> --}}
-  <!-- End Contact -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <!-- <div class="footer-newsletter">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h4>Our Newsletter</h4>
-        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-      </div>
-      <div class="col-lg-6">
-        <form action="" method="post">
-          <input type="email" name="email"><input type="submit" value="Subscribe">
-        </form>
-      </div>
-    </div>
-  </div>
-</div> -->
-
     <div class="footer-top">
         <div class="container">
-            <div class="row">
+            <div class="row justifi-content-center">
 
-                <div class="col-lg-4 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                <div class="col-lg-6 col-md-6 footer-links">
+                    <h4>My Contact</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="">Ship Provision Source</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="">Bunker Oil Ship</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="">Ship Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="">Agency & Chartering</a></li>
+                        <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/danyav.7/">danyav.7</a></li>
+                        <li><i class="fa-brands fa-facebook-square"></i> <a href="https://www.facebook.com/profile.php?id=100010647246534&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_invite_to_follow=false&show_community_transition=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false">Dany Achmad Virgian</a></li>
+                        <li><i class="fa-brands fa-github-square"></i> <a href="https://github.com/DANYVIRGIAN">DANYVIRGIAN</a></li>
+                        <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/dany-achmad-virgian-b1b436216/">Dany Achmad Virgian</a></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
+                <div class="col-lg-6 col-md-6 footer-contact">
+                    <h4>My Address</h4>
                     <p>
-                        Rukan Rose Garden <br>
-                        Blok RR63 No 37, Grand Galaxy City, Bekasi<br>
-                        Indonesia <br><br>
+                        Indonesia. <br>
+                        Jawa Timur, Kota Malang, Kecamatan Kedungkandang,
+                        Kelurahan Kotalama, Jl Laks Martadinata VI/19 <br><br>
                         <!-- <strong><i class="bi bi-envelope-fill"></i></strong> +1 5589 55488 55<br> -->
-                        <strong><i class="bi bi-phone-fill phone-icon"></i></strong> management@ppmahakam.com<br>
+                        <strong><i class="fa-solid fa-envelope"></i></strong> danyav41@gmail.com<br>
                     </p>
 
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-info">
-                    <h3>About PPM</h3>
-                    <p>PT. Pilar Putra Mahakam adalah perusahaan pengelola kapal
-                        terkemuka untuk industri maritim dan perkapalan internasional.</p>
-                    <div class="social-links mt-3">
-                        <a href="https://www.facebook.com/ppmahakam" class="facebook"><i
-                                class="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/ppmahakam" class="instagram"><i
-                                class="bx bxl-instagram"></i></a>
-                        <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
-                        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-                        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-                    </div>
                 </div>
 
             </div>
